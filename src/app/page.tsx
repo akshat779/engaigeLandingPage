@@ -313,9 +313,9 @@ export default function WaitlistPage() {
                 <Link href="#" className="hover:text-blue-400">
                   Blog
                 </Link>
-                <Link href="#" className="hover:text-blue-400">
-                  Contact
-                </Link>
+                <p className="hover:text-blue-400">
+                  Contact: support@engaige.in
+                </p>
               </nav>
             </div>
             <div className="space-y-4">
@@ -324,12 +324,12 @@ export default function WaitlistPage() {
                 <Link href="#" className="hover:text-blue-400">
                   Terms
                 </Link>
-                <Link href="#" className="hover:text-blue-400">
+                <Link href="/privacy-policy" className="hover:text-blue-400">
                   Privacy
                 </Link>
-                <Link href="#" className="hover:text-blue-400">
+                <p className="hover:text-blue-400">
                   Cookies
-                </Link>
+                </p>
               </nav>
             </div>
           </div>
